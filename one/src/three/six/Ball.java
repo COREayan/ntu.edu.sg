@@ -6,6 +6,7 @@ public class Ball {
     private int radius;
     private float xDelta;
     private float yDelta;
+
     public Ball(float x, float y, int radius, int speed, int direction) {
         this.x = x;
         this.y = y;
