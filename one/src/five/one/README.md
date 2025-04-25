@@ -22,7 +22,7 @@ public class Point {
    public void setXY(int x, int y) {......}
 }
 ```
-
+```
 public class TestPoint {
    public static void main(String[] args) {
       Point p1 = new Point(10, 20);   // Construct a Point
@@ -71,6 +71,8 @@ public class Line {
    public double getGradient() { ...... } // Gradient in radians
                                           // Math.atan2(yDiff, xDiff)
 }
+```
+```
 public class TestLine {
    public static void main(String[] args) {
       Line l1 = new Line(0, 0, 3, 4);
@@ -83,6 +85,7 @@ public class TestLine {
       ...
    }
 }
+```
 The class diagram for composition is as follows (where a diamond-hollow-head arrow pointing to its constituents):
 
 ExerciseOOP_PointLineComp.png
