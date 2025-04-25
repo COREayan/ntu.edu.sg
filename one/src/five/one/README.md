@@ -87,13 +87,13 @@ public class TestLine {
 }
 ```
 The class diagram for composition is as follows (where a diamond-hollow-head arrow pointing to its constituents):
+![image](https://github.com/user-attachments/assets/462de7d2-d453-4548-b6fb-75d934294751)
 
-ExerciseOOP_PointLineComp.png
 Instead of composition, we can design a Line class using inheritance. Instead of "a line composes of two points", we can say that "a line is a point extended by another point", as shown in the following class diagram:
+![image](https://github.com/user-attachments/assets/7582788e-10df-4f34-b6c3-3ae060a5cd68)
 
-ExerciseOOP_PointLineInherit.png
 Let's re-design the Line class (called LineSub) as a subclass of class Point. LineSub inherits the starting point from its superclass Point, and adds an ending point. Complete the class definition. Write a testing class called TestLineSub to test LineSub.
-
+```
 public class LineSub extends Point {
    // A line needs two points: begin and end.
    // The begin point is inherited from its superclass Point.
@@ -134,4 +134,5 @@ public class LineSub extends Point {
    public int getLength() { ... }       // Length of the line
    public double getGradient() { ... }  // Gradient in radians
 }
+```
 Summary: There are two approaches that you can design a line, composition or inheritance. "A line composes two points" or "A line is a point extended with another point"”. Compare the Line and LineSub designs: Line uses composition and LineSub uses inheritance. Which design is better?
