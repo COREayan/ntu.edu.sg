@@ -1,7 +1,7 @@
 Let us begin with composition with the statement "a line composes of two points".
 
 Complete the definition of the following two classes: Point and Line. The class Line composes 2 instances of class Point, representing the beginning and ending points of the line. Also write test classes for Point and Line (says TestPoint and TestLine).
-<pre> java
+```
 public class Point {
    // Private variables
    private int x;    // x co-ordinate
@@ -20,7 +20,7 @@ public class Point {
    public void setX(int x) {......}
    public void setY(int y) {......}
    public void setXY(int x, int y) {......}
-}``` </pre>
+}```
 
 public class TestPoint {
    public static void main(String[] args) {
