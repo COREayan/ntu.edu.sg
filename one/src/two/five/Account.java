@@ -35,6 +35,10 @@ public class Account {
         return customer+" balance=$"+String.format("%.2f", this.balance);
     }
 
+    public String getCustomerName() {
+        return customer.getName();
+    }
+
     public void deposit(double amount) {
         this.balance += amount;
     }
