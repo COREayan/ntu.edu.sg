@@ -7,25 +7,16 @@ The exercises are adapted from NTU's Java Programming Tutorial on OOP Exercises:
 Nanyang Technological University
 
 🧠 Topics Covered
-Classes and Instances
-
-Encapsulation
-
-Composition
-
-Inheritance
-
-Polymorphism
-
-Method Overloading and Overriding
-
-Access Modifiers
-
-Constructors
-
-toString() and equals() methods.
+- Classes and Instances
+- Encapsulation
+- Composition
+- Inheritance
+- Polymorphism
+- Method Overloading and Overriding
+- Access Modifiers
+- Constructors
+- toString() and equals() methods.
 
 🛠️ Tools Used
-Java Development Kit (JDK)
-
-Integrated Development Environment (IDE) like IntelliJ IDEA.
+- Java Development Kit (JDK)
+- Integrated Development Environment (IDE) like IntelliJ IDEA.
