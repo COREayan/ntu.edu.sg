@@ -28,4 +28,4 @@ toString() and equals() methods.
 🛠️ Tools Used
 Java Development Kit (JDK)
 
-Integrated Development Environment (IDE) like IntelliJ IDEA or Eclipse
+Integrated Development Environment (IDE) like IntelliJ IDEA.
