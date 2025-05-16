@@ -1,4 +1,4 @@
-Object-Oriented Programming Exercises in Java
+# Object-Oriented Programming Exercises in Java
 This repository contains implementations of various Object-Oriented Programming (OOP) exercises in Java, inspired by the tutorial from Nanyang Technological University (NTU).
 
 📚 Reference
